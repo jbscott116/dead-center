@@ -5,7 +5,7 @@ Adds class-based tool to center HTML elements vertically within their parent con
 
 ## Installation
 Clone the project from GitHub.  
-`git clone "https://github.com/jbscott116/writer.git"`  
+`git clone "https://github.com/jbscott116/dead-center.git"`  
 
 Add the script at the end of your `<body>` element.  
 `<script type="text/javascript" src="path/to/dead-center.js"></script>`  
