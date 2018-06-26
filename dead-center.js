@@ -9,7 +9,6 @@ function DeadCenter(el) {
   this.Offset = calcOffset(this);
   this.Node.style.top = this.Offset + 'px';
   this.Node.style.position = 'absolute';
-  this.Node.style.textAlign = 'right'
   this.Node.style.right = '0px';
 
   function calcOffset(obj) {
