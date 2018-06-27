@@ -15,7 +15,7 @@ function DeadCenter(el) {
     var objHeight = obj.Node.offsetHeight;
     console.log("Parent Height -> " + parentHeight);
     console.log("Object Height -> " + objHeight);
-    return (parentHeight - objHeight) * 0.25;
+    return (parentHeight * 0.5) - (objHeight * 0.5);
   }
 }
 
